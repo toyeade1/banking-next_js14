@@ -208,6 +208,12 @@ declare interface TotlaBalanceBoxProps {
   totalCurrentBalance: number;
 }
 
+declare interface AnimatedCounterProps {
+  amount: number;
+  prefix: string;
+  decimal: number;
+}
+
 declare interface FooterProps {
   user: User;
 }
